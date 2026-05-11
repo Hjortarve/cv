@@ -153,6 +153,24 @@
             .job-header { flex-direction: column; }
             h1 { font-size: 1.8rem; }
         }
+        /* Link Styling - Nordic Silver Aesthetic */
+        a {
+            color: var(--silver-bright);
+            text-decoration: none;
+            transition: all 0.3s ease;
+            border-bottom: 1px solid transparent;
+            padding-bottom: 2px;
+        }
+
+        a:hover {
+            color: var(--snow-white);
+            border-bottom: 1px solid var(--silver-bright);
+        }
+
+        a:active {
+            color: var(--silver-muted);
+        }
+
     </style>
 </head>
 <body>
@@ -292,10 +310,14 @@
         </div>
     </section>
 
-    <footer class="contact-info">
-        <p>Otago | New Zealand</p>
-        <p>Professional references and contact details available upon request</p>
+        <footer class="contact-info">
+        <p>
+            <a href="tel:0225350399">022 535 0399</a> &nbsp;|&nbsp; 
+            <a href="mailto:steventhomas678@gmail.com">steventhomas678@gmail.com</a>
+        </p>
+        <p style="margin-top: 10px;">Professional references and further details available upon request</p>
     </footer>
+
 </div>
 
 </body>
